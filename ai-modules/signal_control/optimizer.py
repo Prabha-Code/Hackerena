@@ -7,8 +7,6 @@ from typing import Dict, Tuple
 import logging
 
 logger = logging.getLogger(__name__)
-     
-               
 class SignalOptimizer:
     """Optimize traffic signal timing using PPO"""
       
