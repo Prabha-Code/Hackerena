@@ -77,7 +77,7 @@ class GreenCorridor:
             logger.info(f"✅ Green corridor deactivated for {emergency_id}")
             return True
         return False
-    
+           
     def get_active_corridors(self) -> Dict:
         """Get all active corridors"""
         return self.active_corridors
