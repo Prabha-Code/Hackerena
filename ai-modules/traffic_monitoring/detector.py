@@ -10,7 +10,7 @@ import logging
     
 logger = logging.getLogger(__name__)
 
-
+    
 class VehicleDetector:
     """Vehicle detection using YOLOv11"""
     
