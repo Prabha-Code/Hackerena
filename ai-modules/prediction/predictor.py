@@ -1,7 +1,6 @@
 """
 Congestion Prediction Module - LSTM & Transformer based forecasting
 """
-
 import numpy as np
 from typing import List, Dict
 import logging
