@@ -80,7 +80,7 @@ class VehicleTracker:
         
         return tracked
 
-
+     
 class TrafficAnalyzer:
     """Analyze traffic from video stream"""
     
