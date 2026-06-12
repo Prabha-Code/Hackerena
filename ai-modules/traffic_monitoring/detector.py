@@ -31,7 +31,7 @@ class VehicleDetector:
         
         results = self.model(frame, conf=0.5, verbose=False)
         detections = []
-        
+             
         for result in results:
             for box in result.boxes:
                 cls = int(box.cls[0])
