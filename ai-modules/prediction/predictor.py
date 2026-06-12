@@ -8,7 +8,7 @@ import logging
 
 logger = logging.getLogger(__name__)
      
-
+    
 class CongestionPredictor:
     """Predict congestion using LSTM + Transformer"""
     
