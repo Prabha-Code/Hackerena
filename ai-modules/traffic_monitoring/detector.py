@@ -7,7 +7,7 @@ import cv2
 import numpy as np
 from typing import List, Dict, Tuple
 import logging
-
+    
 logger = logging.getLogger(__name__)
 
 
