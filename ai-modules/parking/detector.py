@@ -7,7 +7,7 @@ import logging
        
 logger = logging.getLogger(__name__)
 
-   
+     
 class ParkingDetector:
     """Detect parking slot occupancy"""
     
