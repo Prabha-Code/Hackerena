@@ -7,7 +7,7 @@ from typing import List, Dict, Tuple
 import logging
 
 logger = logging.getLogger(__name__)
-
+  
    
 class EmergencyRouter:
     """Route emergency vehicles with green corridors"""
