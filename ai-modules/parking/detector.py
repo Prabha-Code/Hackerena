@@ -68,3 +68,4 @@ class ParkingOptimizer:
         base_price = 30
         multiplier = 1.0 + (occupancy_rate * 0.5)
         return base_price * multiplier
+      
