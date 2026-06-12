@@ -66,7 +66,7 @@ class SignalOptimizer:
         
         for junction_id, state in junctions.items():
             optimized[junction_id] = self.optimize(state)
-        
+             
         logger.info(f"✅ Optimized {len(optimized)} junctions")
         return optimized
 
