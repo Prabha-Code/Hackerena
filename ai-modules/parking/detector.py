@@ -19,10 +19,7 @@ class ParkingDetector:
         return {
             "location_id": location_id,
             "total_slots": 50,
-            "occupied": 32,
-            "available": 18,
-            "occupancy_rate": 0.64,
-            "timestamp": 0
+          
         }          
 
 
