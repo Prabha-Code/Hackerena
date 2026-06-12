@@ -37,7 +37,6 @@ class VehicleDetector:
                 cls = int(box.cls[0])
                 conf = float(box.conf[0])
                 x1, y1, x2, y2 = box.xyxy[0].tolist()
-                   
                 # Map class IDs to vehicle types
                 vehicle_types = {
                     2: "car",
