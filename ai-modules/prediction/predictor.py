@@ -99,6 +99,8 @@ class TemporalAnalyzer:
     def _get_weekly_pattern(self, data: List[Dict]) -> Dict:
         """Get weekly pattern"""
         return {"busiest_day": "Friday", "quietest_day": "Sunday"}
+
+
     
     def _detect_anomalies(self, data: List[Dict]) -> List[Dict]:
         """Detect anomalies in data"""
