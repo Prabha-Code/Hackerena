@@ -8,7 +8,7 @@ import logging
   
 logger = logging.getLogger(__name__)
   
-   
+      
 class EmergencyRouter:
     """Route emergency vehicles with green corridors"""
     
