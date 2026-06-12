@@ -38,12 +38,6 @@ class ParkingRecommender:
         recommendations = [
             {
                 "area_id": "area_001",
-                "name": "Forum Valley Parking",
-                "distance": 0.8,
-                "available_slots": 18,
-                "price_per_hour": 40,
-                "rating": 4.5
-            },
             {
                 "area_id": "area_002",
                 "name": "Indiranagar Parking",
