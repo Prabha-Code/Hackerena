@@ -14,7 +14,6 @@ class EmergencyRouter:
     
     def __init__(self):
         logger.info("✅ Emergency router initialized")
-    
     def calculate_route(
         self,
         vehicle_location: Tuple[float, float],
