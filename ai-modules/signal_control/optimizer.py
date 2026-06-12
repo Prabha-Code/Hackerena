@@ -84,5 +84,5 @@ class SignalCoordinator:
         for i, junction in enumerate(junctions):
             # Calculate offset to create green wave
             offsets[junction] = (i * 15) % 90
-        
+               
         return offsets
