@@ -2,7 +2,6 @@
 Traffic Monitoring Module - AI Vehicle Detection & Tracking
 Uses YOLOv11 + DeepSORT
 """
-
 import cv2
 import numpy as np
 from typing import List, Dict, Tuple
