@@ -23,7 +23,8 @@ class ParkingDetector:
             "available": 18,
             "occupancy_rate": 0.64,
             "timestamp": 0
-        }
+        }          
+
 
 
 class ParkingRecommender:
