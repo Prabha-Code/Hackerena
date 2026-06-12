@@ -136,7 +136,7 @@ class TrafficAnalyzer:
                 results.append(result)
             
             frame_count += 1
-        
+             
         cap.release()
         logger.info(f"✅ Analyzed {len(results)} frames from video")
         return results
