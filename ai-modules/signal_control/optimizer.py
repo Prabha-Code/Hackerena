@@ -35,7 +35,7 @@ class SignalOptimizer:
         # PPO-based optimization (simplified)
         # In production: use trained PPO model
         green_time = self._calculate_green_time(vehicle_count, queue_length)
-        
+     
         return {
             "green_duration": green_time,
             "yellow_duration": 5,
