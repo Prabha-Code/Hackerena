@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 class SignalOptimizer:
     """Optimize traffic signal timing using PPO"""
-    
+      
     def __init__(self):
         self.base_cycle = 90  # seconds
         self.min_green = 15
