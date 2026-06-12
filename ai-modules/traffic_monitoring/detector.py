@@ -125,7 +125,7 @@ class TrafficAnalyzer:
         cap = cv2.VideoCapture(video_path)
         frame_count = 0
         results = []
-        
+              
         while True:
             ret, frame = cap.read()
             if not ret:
